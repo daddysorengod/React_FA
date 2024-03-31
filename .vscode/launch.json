@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FundAdmin DEV debug",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn env:dev && yarn dev",
+    },
+    {
+      "name": "FundAdmin DEV release",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn start"
+    },
+    {
+      "name": "FundAdmin UAT debug",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn env:prod && yarn dev"
+    },
+    {
+      "name": "FundAdmin UAT release",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn start"
+    },
+    {
+      "name": "Open Chorme",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000"
+    },
+    
+  ]
+}

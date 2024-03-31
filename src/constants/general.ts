@@ -1,0 +1,3 @@
+export enum CLOSE_DIALOG_ACTION_TYPE {
+  ONLY_CLOSE = "ONLY_CLOSE",
+}

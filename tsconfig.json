@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noImplicitThis": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@root/*": [
+        "./*"
+      ],
+      "@app/*": [
+        "./src/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@configs/*": [
+        "./src/configs/*"
+      ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
+      "@helpers/*": [
+        "./src/helpers/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@screens/*": [
+        "./src/screens/*"
+      ],
+      "@layout/*": [
+        "./src/layout/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "i18n.js",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
